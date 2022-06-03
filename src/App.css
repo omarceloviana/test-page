@@ -140,7 +140,7 @@
   display: flex;
 }
 .container-topics{
- margin-left: 115px;
+  margin-left: 100px;
   justify-content: center ; 
   width: 84.03%;
   height: 685px;
@@ -199,19 +199,19 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  /* width: 85%; */
   margin-top: -15px;
-  z-index: 1;
+  
 }
 .button-left-topics{
-  margin: 0;
-  margin-right: 100px;
+  padding-left: 465px;
   background-color: #fff;
 }
 .button-left-topics:hover{
   cursor: pointer;
 }
 .button-right-topics{
+  margin-left: 150px;
   background-color: #fff;
 }
 .button-right-topics:hover{
