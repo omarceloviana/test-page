@@ -1,0 +1,223 @@
+@media screen and (max-width: 1400px){
+    /* SECTION TOPICS */
+    #topics .card-content .card-img img{
+        width: 36vw;
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    /* NAVBAR */
+    .navbar{
+        width: 88%;
+    }
+    .navbar .nav-logo{
+        width: 32%;
+    }
+
+    /* SECTION TEAM */
+    #team .team-content{
+        flex-wrap: wrap;
+    }
+    #team .team-content .person-team{
+        margin-bottom: 3rem;
+    }
+    #team .team-content .person-team:last-child{
+        margin-bottom: 0;
+    }
+
+    /* SECTION TOPICS */
+    #topics .card-content .card-img{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    #topics .card-content .card-img img{
+        width: 35vw;
+        height: 25rem;
+    }
+    #topics .card-content .card-text div{
+        padding-right: 3rem;
+    }
+    #topics .card-content .card-text h5{
+        font-size: 1.9rem;
+    }
+    #topics .card-content .card-text p{
+        font-size: 0.9rem;
+    }
+
+    /* SECTION CONTACT */
+    #contact .contact-content h3{
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    /* NAVBAR */
+    .navbar{
+        width: 100%;
+    }
+    .navbar .nav-list{
+        display: none;
+    }
+    .navbar .navbar-toggle #menu-icon{
+        display: block;
+    }
+    .navbar .nav-list.nav-collapse{
+        width: 80%;
+        margin-top: 2rem;
+        display: flex;
+        
+    }
+
+    /* SECTION INTRO */
+    #intro .container-banner{
+        width: 40rem;
+    }
+    #intro .container-banner .banner .banner-body{
+        padding-left: 6rem;
+    }
+
+    /* SECTION TOPICS */
+    #topics .card-content{
+        flex-wrap: wrap;
+        height: 38rem;
+        margin-bottom: 100px;
+    }
+    #topics .card-content .card-img{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    #topics .card-content .card-img img{
+        width: 100%;
+        height: 18rem;
+    }
+    #topics .card-content .card-text h5{
+        font-size: 2rem;
+    }
+    #topics .card-content .card-text p{
+        padding-right: 30%;
+        font-size: 1rem;
+    }
+    #topics .card-content .arrow{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    /* SECTION CONTACT */
+    #contact .contact-content{
+        flex-wrap: wrap;
+    }
+    #contact .contact-content div{
+        width: 100%;
+        padding: 0;
+    }
+    #contact .contact-content div:nth-child(2){
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* SECTION INTRO */
+    #intro .container-banner{
+        width: 32rem;
+    }
+    #intro .container-banner .banner .banner-body{
+        padding-left: 4rem;
+    }
+    #intro .container-banner .banner h2{
+        font-size: 2.8rem;
+    }
+
+    /* SECTION TOPICS */
+    #topics .card-content{
+        height: 40rem;
+    }
+    #topics .card-content .card-text p{
+        padding-right: 20%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    /* NAVBAR */
+    .navbar{
+        margin-bottom: 1.5rem;
+    }
+    .navbar .nav-list.nav-collapse{
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+    .navbar .nav-list .nav-item{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    /* SECTION INTRO */
+    #intro .container-banner{
+        width: 20rem;
+    }
+    #intro .container-banner .banner h2{
+        font-size: 1.8rem;
+    }
+    #intro .container-banner .banner p{
+        font-size: 0.9rem;
+    }
+    #intro .container-banner .banner .banner-body{
+        padding-left: 2rem;
+    }
+
+    /* SECTION TOPICS */
+    #topics .card-content{
+        height: 80%;
+        min-width: 200px;
+    }
+    #topics .card-content .card-text h5{
+        font-size: 1.8rem;
+    }
+    #topics .card-content .card-text p{
+        padding-right: 10%;
+        font-size: .9rem;
+    }
+
+     /* SECTION CONTACT */
+     #contact .contact-content h3{
+        font-size: 2rem;
+    }
+    #contact .contact-content{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 350px){
+    /* SECTION INTRO */
+    #intro .container-banner{
+        width: 16rem;
+    }
+    #intro .container-banner .banner h2{
+        font-size: 1.5rem;
+    }
+    #intro .container-banner .banner p{
+        font-size: 0.85rem;
+    }
+    #intro .container-banner .banner .banner-body{
+        padding-left: 2rem;
+    }
+
+    /* SECTION TEAM */
+    #team .team-content .person-team{
+        box-shadow: -17px 27px 55px 0px #00000014;
+
+    }
+    #team .team-content .person-team img{
+        width: 180px;
+    }
+
+    /* SECTION CONTACT */
+    #contact footer div div{
+        flex-direction: column;
+    }
+}
