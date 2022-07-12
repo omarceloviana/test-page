@@ -171,16 +171,6 @@ export default class InteriorsCC extends Component {
           </button>
         </div>
     </div>
-        
-      {/* <div className='seletor-topics'>
-        <button className='button-left-topics' > 
-          <img className='arrow-topics'  src={arrowLeftTopics} alt="Arrow-Left" />
-        </button>
-        
-        <button className='button-right-topics' >
-          <img className='arrow-topics' src={arrowRightTopics} alt="Arrow-Right" />
-        </button>
-      </div> */}
   </div>
   </div>
   {/* FIM TOPICS */}
